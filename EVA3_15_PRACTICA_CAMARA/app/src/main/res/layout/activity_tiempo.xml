@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hipo.prop.app.axel.com.eva3_15_practica_camara.Tiempo">
+
+    <Button
+        android:id="@+id/sintiempo"
+        android:onClick="onClickboton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIN TIEMPO" />
+
+    <Button
+        android:id="@+id/tiempo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickboton"
+        android:text="3 SEGUNDOS" />
+
+    <Button
+        android:id="@+id/tiempo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickboton"
+        android:text="5 SEGUNDOS" />
+
+    <Button
+        android:id="@+id/tiempo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickboton"
+        android:text="10 SEGUNDOS" />
+
+</LinearLayout>
